@@ -1,0 +1,1 @@
+$execute if data entity @s Inventory[{Slot:$(slot)b}].components."minecraft:custom_data"{builders_bundles:1b} run data modify storage pdb:main in.builders_bundles.discarded append from entity @s Inventory[{Slot:$(slot)b}]

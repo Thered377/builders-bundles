@@ -1,0 +1,2 @@
+execute if data entity @s equipment.offhand.components{"minecraft:item_model": "buildersbundles:tier_1"} run function builders_bundles:if_bundle/lock_slot with storage pdb:main tmp.builders_bundles
+execute if score @s check matches 5..8 if data entity @s equipment.offhand.components{"minecraft:item_model": "buildersbundles:tier_2"} run function builders_bundles:if_bundle/lock_slot with storage pdb:main tmp.builders_bundles

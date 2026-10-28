@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "interact": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "builders_bundles:fetch_hotbar/nested_1/book"
+  }
+}

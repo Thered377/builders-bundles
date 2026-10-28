@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "if_bundle": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "function": "builders_bundles:unless_bundle"
+  }
+}

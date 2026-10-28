@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "if_bundle": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "function": "builders_bundles:if_bundle"
+  }
+}

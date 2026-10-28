@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xbx",
+    "xxx"
+  ],
+  "key": {
+    "x": "minecraft:netherite_ingot",
+    "b": "#minecraft:bundles"
+  },
+  "result": {
+    "id": "minecraft:bundle",
+    "components": {
+      "minecraft:item_name": {
+        "text": "Builders Bundle\u00a7f\ub7ec"
+      },
+      "!minecraft:bundle_contents": {},
+      "minecraft:rarity": "uncommon",
+      "minecraft:item_model": "buildersbundles:tier_3",
+      "minecraft:custom_data": {
+        "builders_bundles": true
+      }
+    }
+  }
+}

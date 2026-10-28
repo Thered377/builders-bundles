@@ -1,0 +1,1 @@
+$execute if data entity @s Inventory[{Slot:$(slot)b}].components."minecraft:custom_data"{switched:1b} run item modify entity @s container.$(slot) {type:"minecraft:set_custom_data",tag:{hotbar:$(hotbar)},conditions:[]}
